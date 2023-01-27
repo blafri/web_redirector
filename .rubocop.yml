@@ -1,0 +1,12 @@
+require:
+  - rubocop-minitest
+  - rubocop-rake
+
+AllCops:
+  NewCops: enable
+
+Minitest/MultipleAssertions:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
